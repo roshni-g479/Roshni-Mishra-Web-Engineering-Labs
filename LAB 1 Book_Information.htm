@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Book Information</title>
+
+    <script>
+        function showBook(book) {
+            document.getElementById("home").style.display = "none";
+
+            document.getElementById("book1").style.display = "none";
+            document.getElementById("book2").style.display = "none";
+            document.getElementById("book3").style.display = "none";
+
+            document.getElementById(book).style.display = "block";
+        }
+
+        function showHome() {
+            document.getElementById("book1").style.display = "none";
+            document.getElementById("book2").style.display = "none";
+            document.getElementById("book3").style.display = "none";
+
+            document.getElementById("home").style.display = "block";
+        }
+    </script>
+
+</head>
+
+<body>
+
+<!-- HOME PAGE -->
+
+<div id="home">
+
+    <h1>Book Information</h1>
+
+    <table border="1">
+
+        <tr>
+            <th>Book Name</th>
+            <th>Author</th>
+            <th>Price</th>
+            <th>Type</th>
+            <th>Published Date</th>
+        </tr>
+
+        <tr>
+            <td>
+                <a href="#" onclick="showBook('book1')">
+                    The Monk Who Sold His Ferrari
+                </a>
+            </td>
+            <td>Robin Sharma</td>
+            <td>302/-</td>
+            <td>Self-Help</td>
+            <td>1997</td>
+        </tr>
+
+        <tr>
+            <td>
+                <a href="#" onclick="showBook('book2')">
+                    Thank You, Universe
+                </a>
+            </td>
+            <td>Dilip Kumar Mishra</td>
+            <td>210/-</td>
+            <td>Self-Help</td>
+            <td>2020</td>
+        </tr>
+
+        <tr>
+            <td>
+                <a href="#" onclick="showBook('book3')">
+                    Atomic Habits
+                </a>
+            </td>
+            <td>James Clear</td>
+            <td>319/-</td>
+            <td>Self-Help</td>
+            <td>2018</td>
+        </tr>
+
+    </table>
+
+</div>
+
+
+<!-- BOOK 1 -->
+
+<div id="book1" style="display:none;">
+
+    <h1>Book Information</h1>
+
+    <table border="1">
+
+        <tr>
+            <th>Book Name</th>
+            <td>The Monk Who Sold His Ferrari</td>
+        </tr>
+
+        <tr>
+            <th>Author</th>
+            <td>Robin Sharma</td>
+        </tr>
+
+        <tr>
+            <th>Price</th>
+            <td>399/-</td>
+        </tr>
+
+        <tr>
+            <th>Type</th>
+            <td>Self-Help</td>
+        </tr>
+
+        <tr>
+            <th>Published Date</th>
+            <td>1997</td>
+        </tr>
+
+        <tr>
+            <th>Description</th>
+            <td>
+                A motivational story about finding happiness, purpose,
+                inner peace and a meaningful life.
+            </td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <a href="#" onclick="showHome()">Back to Home</a>
+
+</div>
+
+
+<!-- BOOK 2 -->
+
+<div id="book2" style="display:none;">
+
+    <h1>Book Information</h1>
+
+    <table border="1">
+
+        <tr>
+            <th>Book Name</th>
+            <td>Thank You, Universe</td>
+        </tr>
+
+        <tr>
+            <th>Author</th>
+            <td>Dilip Kumar Mishra</td>
+        </tr>
+
+        <tr>
+            <th>Price</th>
+            <td>210/-</td>
+        </tr>
+
+        <tr>
+            <th>Type</th>
+            <td>Self-Help</td>
+        </tr>
+
+        <tr>
+            <th>Published Date</th>
+            <td>2020</td>
+        </tr>
+
+        <tr>
+            <th>Description</th>
+            <td>
+                A guide to gratitude, positive thinking and using the power
+                of intention to create a happier life.
+            </td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <a href="#" onclick="showHome()">Back to Home</a>
+
+</div>
+
+
+<!-- BOOK 3 -->
+
+<div id="book3" style="display:none;">
+
+    <h1>Book Information</h1>
+
+    <table border="1">
+
+        <tr>
+            <th>Book Name</th>
+            <td>Atomic Habits</td>
+        </tr>
+
+        <tr>
+            <th>Author</th>
+            <td>James Clear</td>
+        </tr>
+
+        <tr>
+            <th>Price</th>
+            <td>319/-</td>
+        </tr>
+
+        <tr>
+            <th>Type</th>
+            <td>Self-Help</td>
+        </tr>
+
+        <tr>
+            <th>Published Date</th>
+            <td>2018</td>
+        </tr>
+
+        <tr>
+            <th>Description</th>
+            <td>
+                A practical guide to building good habits, breaking bad ones
+                and making small changes that lead to remarkable results.
+            </td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <a href="#" onclick="showHome()">Back to Home</a>
+
+</div>
+
+</body>
+
+</html>
