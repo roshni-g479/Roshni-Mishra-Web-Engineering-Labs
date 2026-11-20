@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    Online Shopping System - Products Database in XML
+    Used for 3rd-year B.Tech Computer Science Web Technologies Lab Project
+-->
+<products>
+    <product>
+        <id>1</id>
+        <name>Wireless Bluetooth Headphones</name>
+        <category>Electronics</category>
+        <price>1499</price>
+        <rating>4.5</rating>
+        <stock>In Stock</stock>
+        <image>images/headphones.svg</image>
+        <description>High quality wireless over-ear headphones with deep bass, active noise reduction, built-in HD microphone, and up to 20 hours of battery life. Suitable for online classes, coding sessions, and music.</description>
+    </product>
+
+    <product>
+        <id>2</id>
+        <name>Smart Fitness Watch</name>
+        <category>Wearables</category>
+        <price>2199</price>
+        <rating>4.3</rating>
+        <stock>In Stock</stock>
+        <image>images/smartwatch.svg</image>
+        <description>Full touch HD display smartwatch with 24/7 heart rate monitoring, step counter, sleep tracker, multiple sports modes, IP68 water resistance, and 7 days battery standby time.</description>
+    </product>
+
+    <product>
+        <id>3</id>
+        <name>Ergonomic Gaming Mouse</name>
+        <category>Accessories</category>
+        <price>799</price>
+        <rating>4.6</rating>
+        <stock>In Stock</stock>
+        <image>images/mouse.svg</image>
+        <description>High-precision optical gaming mouse with customizable RGB lighting, 6 programmable buttons, 4 adjustable DPI levels (up to 3200 DPI), and an anti-slip ergonomic grip.</description>
+    </product>
+
+    <product>
+        <id>4</id>
+        <name>Mechanical Gaming Keyboard</name>
+        <category>Accessories</category>
+        <price>2499</price>
+        <rating>4.7</rating>
+        <stock>In Stock</stock>
+        <image>images/keyboard.svg</image>
+        <description>Mechanical keyboard with tactile blue switches, multi-color LED backlighting, full anti-ghosting keys, and durable aluminum top plate. Great for fast programming and gaming.</description>
+    </product>
+
+    <product>
+        <id>5</id>
+        <name>USB-C Fast Charger 65W</name>
+        <category>Accessories</category>
+        <price>899</price>
+        <rating>4.4</rating>
+        <stock>In Stock</stock>
+        <image>images/charger.svg</image>
+        <description>Compact GaN wall charger with dual USB-C power delivery ports. Supports fast charging for laptops, smartphones, power banks, and tablets with over-voltage protection.</description>
+    </product>
+
+    <product>
+        <id>6</id>
+        <name>Waterproof Laptop Backpack</name>
+        <category>Bags</category>
+        <price>1199</price>
+        <rating>4.5</rating>
+        <stock>In Stock</stock>
+        <image>images/backpack.svg</image>
+        <description>Spacious 25-liter durable backpack featuring a dedicated padded compartment for up to 15.6 inch laptops, external USB charging port, water-resistant fabric, and anti-theft pocket.</description>
+    </product>
+
+    <product>
+        <id>7</id>
+        <name>Portable Bluetooth Speaker</name>
+        <category>Electronics</category>
+        <price>1299</price>
+        <rating>4.3</rating>
+        <stock>In Stock</stock>
+        <image>images/speaker.svg</image>
+        <description>Portable cylinder wireless speaker delivering clear 360-degree sound and punchy bass. Features IPX6 splash resistance, FM radio support, and 12-hour continuous playtime.</description>
+    </product>
+
+    <product>
+        <id>8</id>
+        <name>1080p Full HD Web Camera</name>
+        <category>Electronics</category>
+        <price>1699</price>
+        <rating>4.2</rating>
+        <stock>In Stock</stock>
+        <image>images/webcam.svg</image>
+        <description>Full HD 1080p plug-and-play USB webcam with dual noise-reduction microphones, wide-angle lens, auto low-light correction, and built-in privacy physical cover.</description>
+    </product>
+</products>

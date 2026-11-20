@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - TechKart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation Bar -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">Tech<span>Kart</span></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li>
+                        <a href="cart.html">Cart <span class="cart-badge">0</span></a>
+                    </li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <h2 class="page-title">Our Products Catalog</h2>
+
+        <!-- Filter and Search Bar -->
+        <div class="filter-bar">
+            <label for="category-filter">Category:</label>
+            <select id="category-filter">
+                <option value="All">All Categories</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Accessories">Accessories</option>
+                <option value="Wearables">Wearables</option>
+                <option value="Bags">Bags</option>
+            </select>
+
+            <label for="search-input" style="margin-left: 10px;">Search:</label>
+            <input type="text" id="search-input" placeholder="Search by name or keyword...">
+        </div>
+
+        <!-- Products Grid Container -->
+        <div id="products-grid" class="products-grid">
+            <!-- Products loaded dynamically from products.xml using script.js -->
+            <p style="grid-column: 1/-1; text-align: center; color: #888;">Loading catalog from products.xml...</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>TechKart Online Shopping Portal &copy; 2026. All Rights Reserved.</p>
+        <p>Developed for 3rd-Year B.Tech Computer Science Laboratory Project.</p>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechKart - Online Shopping Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation Bar -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">Tech<span>Kart</span></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li>
+                        <a href="cart.html">Cart <span class="cart-badge">0</span></a>
+                    </li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Introduction Banner -->
+        <section class="hero-banner">
+            <h1>Welcome to TechKart</h1>
+            <p>Your one-stop college portal for tech gadgets, accessories, and student essentials at affordable prices. Built with HTML, CSS, JavaScript, and XML.</p>
+            <a href="products.html" class="btn-primary">Browse All Products</a>
+        </section>
+
+        <!-- Feature Highlights -->
+        <section class="features-section">
+            <div class="feature-box">
+                <h3>Affordable Student Deals</h3>
+                <p>Curated tech accessories and electronics tailored for college student budgets.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Fast Delivery</h3>
+                <p>Quick campus and doorstep delivery with order confirmation and tracking.</p>
+            </div>
+            <div class="feature-box">
+                <h3>XML Data Driven</h3>
+                <p>Product catalog is dynamically retrieved and parsed from an XML database.</p>
+            </div>
+        </section>
+
+        <!-- Featured Products Section -->
+        <section>
+            <h2 class="page-title">Featured Products</h2>
+            <div id="featured-products" class="products-grid">
+                <!-- Products loaded dynamically from products.xml using script.js -->
+                <p style="grid-column: 1/-1; text-align: center; color: #888;">Loading featured products from XML...</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>TechKart Online Shopping Portal &copy; 2026. All Rights Reserved.</p>
+        <p>Developed for 3rd-Year B.Tech Computer Science Laboratory Project.</p>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>

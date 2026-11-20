@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration - TechKart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation Bar -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">Tech<span>Kart</span></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li>
+                        <a href="cart.html">Cart <span class="cart-badge">0</span></a>
+                    </li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html" class="active">Register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="auth-container">
+            <h2>Create an Account</h2>
+            <p class="subtitle">Fill in the form below to register as a student customer</p>
+
+            <div id="reg-status" class="form-status"></div>
+
+            <form id="register-form" novalidate>
+                <div class="form-group">
+                    <label for="reg-name">Full Name</label>
+                    <input type="text" id="reg-name" placeholder="e.g. Roshni Sharma">
+                    <span id="reg-name-error" class="error-msg"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="reg-email">Email Address</label>
+                    <input type="email" id="reg-email" placeholder="e.g. roshni@college.edu">
+                    <span id="reg-email-error" class="error-msg"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="reg-phone">Mobile Number (10 Digits)</label>
+                    <input type="text" id="reg-phone" placeholder="e.g. 9876543210" maxlength="10">
+                    <span id="reg-phone-error" class="error-msg"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="reg-password">Password (Minimum 6 characters)</label>
+                    <input type="password" id="reg-password" placeholder="Create a password">
+                    <span id="reg-pass-error" class="error-msg"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="reg-confirm-password">Confirm Password</label>
+                    <input type="password" id="reg-confirm-password" placeholder="Re-enter your password">
+                    <span id="reg-confirm-error" class="error-msg"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="reg-address">Hostel / Campus Delivery Address</label>
+                    <textarea id="reg-address" rows="2" placeholder="e.g. Room 204, Block-B, University Campus Hostel"></textarea>
+                    <span id="reg-address-error" class="error-msg"></span>
+                </div>
+
+                <button type="submit" class="btn-primary" style="width: 100%; padding: 11px;">Register Account</button>
+            </form>
+
+            <div class="auth-footer">
+                <p>Already have an account? <a href="login.html">Login Here</a></p>
+                <p style="margin-top: 8px;"><a href="index.html">&larr; Return to Home Page</a></p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>TechKart Online Shopping Portal &copy; 2026. All Rights Reserved.</p>
+        <p>Developed for 3rd-Year B.Tech Computer Science Laboratory Project.</p>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="100%" height="100%">
+  <rect width="300" height="200" fill="#f0f4f8"/>
+  <!-- Top Handle -->
+  <path d="M 125 45 Q 150 25 175 45" fill="none" stroke="#2c3e50" stroke-width="6"/>
+  <!-- Backpack Body -->
+  <path d="M 110 50 Q 150 40 190 50 L 205 145 Q 150 160 95 145 Z" fill="#2c3e50"/>
+  <!-- Front Pocket -->
+  <path d="M 115 85 Q 150 78 185 85 L 195 140 Q 150 152 105 140 Z" fill="#34495e"/>
+  <!-- Zipper Line -->
+  <path d="M 120 90 Q 150 84 180 90" fill="none" stroke="#bdc3c7" stroke-width="2" stroke-dasharray="3,2"/>
+  <!-- Accent Patch -->
+  <rect x="135" y="105" width="30" height="16" rx="4" fill="#e67e22"/>
+  <!-- Label -->
+  <text x="150" y="180" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#555" text-anchor="middle">Laptop Backpack</text>
+</svg>
